@@ -4,7 +4,8 @@ const butInstall = document.getElementById('buttonInstall');
 // TODO: Add an event handler to the `beforeinstallprompt` event
 window.addEventListener('beforeinstallprompt', (event) => {
     window.deferredPrompt = event;
-    // Remove hidden class from button before it is pressed
+
+    // Remove hidden class from before it is pressed
     butInstall.classList.toggle('hidden', false);
 });
 
@@ -25,4 +26,5 @@ butInstall.addEventListener('click', async () => {
 window.addEventListener('appinstalled', (event) => {
     // clear prompt
     window.deferredPrompt = null;
+    butInstall.classList.add('hidden')
 });

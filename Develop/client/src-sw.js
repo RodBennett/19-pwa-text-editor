@@ -29,7 +29,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 // TODO: Implement asset caching
 
 registerRoute(
-  ({ request }) => request.destination === "image",
+  ({ request }) => request.destination === "images",
 
   // sets cache first strategy for images
   new CacheFirst({
