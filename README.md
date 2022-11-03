@@ -6,7 +6,9 @@
 ## Overview
 
 ```md
-This repository contains code for a basic IDE text editor that was created as a means of practicing the Progessive Web App (PWA) library Webpack.  This Text Editor can be used for note taking or coding alike, and all entries are saved automatically.
+This repository contains code for a basic IDE text editor that was created as a means of 
+practicing the Progessive Web App (PWA) library Webpack.  This Text Editor can be used 
+for note taking or coding alike, and all entries are saved automatically.
 ```
 
 ## Table Of Contents
