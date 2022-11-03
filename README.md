@@ -1,22 +1,23 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# 👨‍💻 Progressive Web Applications (PWA): Text Editor
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Your Task
+## [Heroku Deployment Link]()
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
-
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
-
-## User Story
+## Overview
 
 ```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
+This repository contains code for a basic IDE text editor that was created as a means of practicing the Progessive Web App (PWA) library Webpack.  This Text Editor can be used for note taking or coding alike, and all entries are saved automatically.
 ```
+
+## Table Of Contents
+- [Acceptance Criteria](#acceptance-criteria)
+- [Static Screenshots](#static-screenshots)
+- [Installation](#installation)
+- [Challenges](#challenges)
+- [Future Developement](#future-development)
+- [Contributing](#contributing)
+- [Technology Used](#technology-used)
+- [Contact Info](#contact-info)
 
 ## Acceptance Criteria
 
@@ -47,6 +48,52 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+## Static Screenshots
+## Installation
+(A) 
+1. Clone this repo to your local machine.  
+2. Run ```npm install``` in your terminal to download all necessary packages.
+3. Run ``` npm start ``` in your terminal to start the program.
+4. Open your browser and navigate to ```http://localhost:3000``` to use the app on your machine.
+
+(B)
+
+Alternatively, this app has been deployed to Heroku so it can be used through your URL. Click ```install``` at the top left-hand corner of your screen to download the app to your Desktop.
+
+## Challenges
+As this was a refactoring project, there were only a few challenges along the way. The first was getitng the Service Worker registered properly in the ```src-sw.js``` file.  Secondly, the installation proved to be tricky during development because it took a little while to figure out how to ```uninstall``` it to continue development.  
+
+## Future Development
+In the future, I would like to create a Text Editor from scratch that could be useful as an alternative to VS Code (not that one is necessary).
+
+## Contributing
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+As this was refactored for a University of Denver coding bootcamp assignment, public contributing is discouraged.
+
+## Technology Used
+- [node.js](https://nodejs.org/en/)
+- [indexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API): for client-side, browser database usable offline.
+- [Webpack](https://webpack.js.org/): for client-side bundling and service workers
+- [concurrently](https://www.npmjs.com/package/concurrently): a development tool for initializing multiple packages at the same time
+- [nodemon](https://www.npmjs.com/package/nodemon): development package for real time server updates
+- [express.js](https://www.npmjs.com/package/express): npm package for routing and server
+- [babel](https://babeljs.io/): a JavaScript compiler for JS versions before ES6
+- [idb](): npm wrapper for indexedDB
+
+## Contact Info
+
+
+## Your Task
+
+As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+
+Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+
+To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+
+You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+
 
 ## Mock-Up
 
