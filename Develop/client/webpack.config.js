@@ -11,8 +11,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
+      // editor: './src/js/editor.js',
       // header: './src/js/header.js',
-      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -22,7 +22,7 @@ module.exports = () => {
       // HTML plugin
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'JATE Text Editor'
+        title: 'J.A.T.E'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -33,7 +33,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'JATE Text Editor',
+        name: 'J.A.T.E',
         short_name: 'JATE', 
         description: 'Best Text Editor EVER!',
         background_color: '#225ca3',
