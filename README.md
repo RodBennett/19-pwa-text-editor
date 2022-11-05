@@ -63,7 +63,7 @@ THEN I should have proper build scripts for a webpack application
 Alternatively, this app has been deployed to Heroku so it can be used through your URL. Click ```install``` at the top left-hand corner of your screen to download the app to your Desktop.
 
 ## Challenges
-As this was a refactoring project, there were only a few challenges along the way. The first was getitng the Service Worker registered properly in the ```src-sw.js``` file.  Secondly, the installation proved to be tricky during development because it took a little while to figure out how to ```uninstall``` it to continue development.  
+As this was a refactoring project, there were only a few challenges along the way. The first was getting the Service Worker registered properly in the ```src-sw.js``` file.  Secondly, the installation proved to be tricky during development because it took a little while to figure out how to ```uninstall``` it to continue development.  
 
 ## Future Development
 In the future, I would like to create a Text Editor from scratch that could be useful as an alternative to VS Code (not that one is necessary).
